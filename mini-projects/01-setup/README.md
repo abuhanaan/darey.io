@@ -13,3 +13,6 @@ This mini project is targeted at setting up the right tools essential for succee
 
 - Ubuntu Setup
   ![Ubuntu](images/ubuntu-terminal.png)
+
+- Git Setup
+![Ubuntu](images/git.png)
