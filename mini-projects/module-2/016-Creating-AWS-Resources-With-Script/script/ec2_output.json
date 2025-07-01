@@ -1,0 +1,231 @@
+{
+    "Groups": [],
+    "Instances": [
+        {
+            "AmiLaunchIndex": 1,
+            "ImageId": "ami-00c8ac9147e19828e",
+            "InstanceId": "i-0aaf5ae9fd3839c20",
+            "InstanceType": "t3.micro",
+            "KeyName": "darey",
+            "LaunchTime": "2025-07-01T15:58:29+00:00",
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "Placement": {
+                "AvailabilityZone": "eu-north-1a",
+                "GroupName": "",
+                "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-24-9.eu-north-1.compute.internal",
+            "PrivateIpAddress": "172.31.24.9",
+            "ProductCodes": [],
+            "PublicDnsName": "",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-067985ce9702c16eb",
+            "VpcId": "vpc-0f88ed27304a766d0",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "3462a776-d11b-42c0-aaeb-c3519e5b7340",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2025-07-01T15:58:29+00:00",
+                        "AttachmentId": "eni-attach-0835e42539ba4a16d",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-0a3d241726525c121"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "06:a2:bf:e1:2e:f1",
+                    "NetworkInterfaceId": "eni-08b29f6fb97b7c03d",
+                    "OwnerId": "327083199699",
+                    "PrivateDnsName": "ip-172-31-24-9.eu-north-1.compute.internal",
+                    "PrivateIpAddress": "172.31.24.9",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-24-9.eu-north-1.compute.internal",
+                            "PrivateIpAddress": "172.31.24.9"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-067985ce9702c16eb",
+                    "VpcId": "vpc-0f88ed27304a766d0",
+                    "InterfaceType": "interface"
+                }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupName": "default",
+                    "GroupId": "sg-0a3d241726525c121"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "required",
+                "HttpPutResponseHopLimit": 2,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+        },
+        {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-00c8ac9147e19828e",
+            "InstanceId": "i-015d0840e765a9de2",
+            "InstanceType": "t3.micro",
+            "KeyName": "darey",
+            "LaunchTime": "2025-07-01T15:58:29+00:00",
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "Placement": {
+                "AvailabilityZone": "eu-north-1a",
+                "GroupName": "",
+                "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-16-82.eu-north-1.compute.internal",
+            "PrivateIpAddress": "172.31.16.82",
+            "ProductCodes": [],
+            "PublicDnsName": "",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-067985ce9702c16eb",
+            "VpcId": "vpc-0f88ed27304a766d0",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "3462a776-d11b-42c0-aaeb-c3519e5b7340",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2025-07-01T15:58:29+00:00",
+                        "AttachmentId": "eni-attach-00938058140cecea7",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-0a3d241726525c121"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "06:97:a7:6a:48:c9",
+                    "NetworkInterfaceId": "eni-04554e657e37dbb88",
+                    "OwnerId": "327083199699",
+                    "PrivateDnsName": "ip-172-31-16-82.eu-north-1.compute.internal",
+                    "PrivateIpAddress": "172.31.16.82",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-16-82.eu-north-1.compute.internal",
+                            "PrivateIpAddress": "172.31.16.82"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-067985ce9702c16eb",
+                    "VpcId": "vpc-0f88ed27304a766d0",
+                    "InterfaceType": "interface"
+                }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupName": "default",
+                    "GroupId": "sg-0a3d241726525c121"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "required",
+                "HttpPutResponseHopLimit": 2,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+        }
+    ],
+    "OwnerId": "327083199699",
+    "ReservationId": "r-07846dcd3b661e62f"
+}
